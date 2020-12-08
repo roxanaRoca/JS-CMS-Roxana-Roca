@@ -22,6 +22,11 @@ const populate = () => {
         content: 'Well, it works. Welcome to my blog.',
         slug: 'post-3'
     });
+    db.add('posts', {
+        title: '❓ Test blog post!!!',
+        content: 'Well, it works. I think and hope.',
+        slug: 'post-4'
+    });
 };
 
 module.exports = populate
