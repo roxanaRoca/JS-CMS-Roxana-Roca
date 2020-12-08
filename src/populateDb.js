@@ -27,6 +27,11 @@ const populate = () => {
         content: 'Well, it works. I think and hope.',
         slug: 'post-4'
     });
+    db.add('posts', {
+        title: '❓ Test Git user name!!!',
+        content: 'Hello github',
+        slug: 'post-5'
+    });
 };
 
 module.exports = populate
